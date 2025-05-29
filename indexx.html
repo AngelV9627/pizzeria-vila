@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pizzería Vila</title>
+  <link rel="stylesheet" href="stylo.css" />
+</head>
+<body>
+
+  <header> 
+    <h1>Pizzería Vila</h1>
+    <h3>Las mejores pizzas del condado</h3>
+  </header>
+
+  <main class="contenedor">
+    <div class="productos">
+      <div class="prod" data-id="1" data-nombre="Pizza a Caballo" data-precio="7000">
+        <img src="./imagenes/caballo.jpg" alt="Pizza a Caballo" />
+        <h4>Pizza a Caballo</h4>
+        <p class="precio">$7000</p>
+        <button class="agregar">Agregar</button>
+      </div>
+      <div class="prod" data-id="2" data-nombre="Pizza Calabresa" data-precio="7000">
+        <img src="./imagenes/calabresa.jpg" alt="Pizza Calabresa" />
+        <h4>Pizza Calabresa</h4>
+        <p class="precio">$7000</p>
+        <button class="agregar">Agregar</button>
+      </div>
+      <div class="prod" data-id="3" data-nombre="Doble Muzzarella" data-precio="6500">
+        <img src="./imagenes/doblemu.jpg" alt="Doble Muzzarella" />
+        <h4>Doble Muzzarella</h4>
+        <p class="precio">$6500</p>
+        <button class="agregar">Agregar</button>
+      </div>
+      <div class="prod" data-id="4" data-nombre="Pizza Especial" data-precio="7000">
+        <img src="./imagenes/especial.jpg" alt="Pizza Especial" />
+        <h4>Pizza Especial</h4>
+        <p class="precio">$7000</p>
+        <button class="agregar">Agregar</button>
+      </div>
+      <div class="prod" data-id="5" data-nombre="Pizza Napolitana" data-precio="7000">
+        <img src="./imagenes/pizza.jpg" alt="Pizza Napolitana" />
+        <h4>Pizza Napolitana</h4>
+        <p class="precio">$7000</p>
+        <button class="agregar">Agregar</button>
+      </div>
+      <div class="prod" data-id="6" data-nombre="Pizza Fugazzeta" data-precio="7000">
+        <img src="./imagenes/fugazzeta.jpg" alt="Pizza Fugazzeta" />
+        <h4>Pizza Fugazzeta</h4>
+        <p class="precio">$7000</p>
+        <button class="agregar">Agregar</button>
+      </div>
+    </div>
+
+    <div class="carrito">
+      <h2>Carrito de compras</h2>
+      <ul id="lista-carrito"></ul>
+      <p class="total">Total: $<span id="total">0</span></p>
+      <button id="vaciar-carrito">Vaciar carrito</button>
+      <a id="enviar-whatsapp" href="#" target="_blank">Enviar por WhatsApp</a>
+    </div>
+  </main>
+
+  <footer> 
+    <p>Somos una empresa familiar dedicada a hacer las mejores pizzas para tu paladar.</p>
+    <p>Chilecito - La Rioja</p>
+    <p>WhatsApp: 3825 400585</p>
+  </footer>
+
+  <script src="jv.js"></script>
+</body>
+</html>
